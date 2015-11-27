@@ -1,4 +1,16 @@
-#include <teensy3.1-ssd1351-ugfx-config.h>
+/* example ssd1351 project for ugfx-arduino
+1) make sure you have copied the libraries from the repo:
+- libraries/ugfx-arduino-gdisp-ssd1351
+- libraries/example-ssd1351-ugfx-config
+to arduino's libraries folder
+
+2) connect your SSD1351 display to your arduino board
+- SCK, MOSI are the standard SPI pins
+- RESET, CS and DC as per libraries/example-ssd1351-ugfx-config/ssd1351_pins.cpp
+  or adapt ssd1351_pins.cpp to suit your needs
+*/
+
+#include <example-ssd1351-ugfx-config.h>
 #include <SPI.h>
 
 void setup() {

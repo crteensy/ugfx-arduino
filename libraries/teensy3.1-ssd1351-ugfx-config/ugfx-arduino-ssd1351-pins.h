@@ -1,8 +1,0 @@
-#ifndef UGFX_ARDUINO_SSD1351_PINS_H
-#define UGFX_ARDUINO_SSD1351_PINS_H
-
-#define GPIO_DC    16
-#define GPIO_RESET 15
-#define GPIO_CS    14
-
-#endif // UGFX_ARDUINO_SSD1351_PINS_H
