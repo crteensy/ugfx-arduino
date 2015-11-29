@@ -7,7 +7,7 @@ It is assumed that you are familiar with uGFX or have some experience in the ard
 
 ## Installation
 Well, sort of:
-- this library should be put into arduino's library folder.
+- this library should be put into arduino's library folder. If you have downloaded it as a .zip file, rename the contained main folder from ugfx-arduino-master to ugfx-arduino.
 - get uGFX from http://ugfx.org/ (Downloads section, I've tested 2.4 and the git repo state as of 2015-11-24) and put it into arduino's library directory. You should end up with _arduino libraries directory_/ugfx/src and other files and folders. The main include file (gfx.h) should be at _arduino libraries directory_/ugfx/gfx.h .
 - Copy the libraries from this repo's library directory to arduino's library directory where all other user libraries are.
 - The example sketch goes into your sketchbook, or some other place. It doesn't really matter.
